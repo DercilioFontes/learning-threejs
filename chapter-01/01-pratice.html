@@ -28,7 +28,7 @@
     function init() {
         // here we'll put the Three.js stuff
       const scene = new THREE.Scene();
-      const camera = new THREE.PerspectiveCamera(45, window.innerWidth/window.innerHeight, 0.1, 1000);
+      const camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 1000);
 
       const renderer = new THREE.WebGLRenderer();
       renderer.setClearColorHex(0xeeeeee);
@@ -67,7 +67,7 @@
 			sphere.position.y = 4;
 			sphere.position.z = 2;
 			scene.add(sphere);
-			
+
 			
 			camera.position.x = -30;
 			camera.position.y = 40;
